@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AZUL Usuarios" max_length="40" name="x_419797_azul_alp_tabela_usuarios" type="collection">
+        <element label="Ativo" max_length="4000" name="ativo" type="boolean"/>
+        <element display="true" label="Usuarios" max_length="120" name="usuarios" type="string"/>
+    </element>
+</database>

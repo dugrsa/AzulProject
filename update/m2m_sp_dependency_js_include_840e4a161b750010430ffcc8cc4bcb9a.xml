@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <sp_dependency display_value="angular-charts">2d4b0a521b750010430ffcc8cc4bcb69</sp_dependency>
+        <sp_js_include display_value="https://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js">f1bdce921b750010430ffcc8cc4bcb22</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 20:55:04</sys_created_on>
+        <sys_id>840e4a161b750010430ffcc8cc4bcb9a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>angular-charts.https://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_840e4a161b750010430ffcc8cc4bcb9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 20:55:26</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

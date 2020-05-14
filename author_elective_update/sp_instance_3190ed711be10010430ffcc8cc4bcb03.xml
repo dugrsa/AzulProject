@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">f190ed711be10010430ffcc8cc4bcb01</sp_column>
+        <sp_widget display_value="KB Most Viewed">7d903b52cb30020000f8d856634c9ce3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:04:01</sys_created_on>
+        <sys_id>3190ed711be10010430ffcc8cc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB Most Viewed</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_instance_3190ed711be10010430ffcc8cc4bcb03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:04:01</sys_updated_on>
+        <title>KB Most Viewed</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3190ed711be10010430ffcc8cc4bcb03"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sp_instance_3190ed711be10010430ffcc8cc4bcb03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">f190ed711be10010430ffcc8cc4bcb01</sp_column><sp_widget display_value="KB Most Viewed">7d903b52cb30020000f8d856634c9ce3</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-06 18:04:01</sys_created_on><sys_id>3190ed711be10010430ffcc8cc4bcb03</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KB Most Viewed</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sp_instance_3190ed711be10010430ffcc8cc4bcb03</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-06 18:04:01</sys_updated_on><title>KB Most Viewed</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=3190ed711be10010430ffcc8cc4bcb03"/></record_update>]]></payload>
+        <payload_hash>1580859596</payload_hash>
+        <record_name>KB Most Viewed</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:04:01</sys_created_on>
+        <sys_id>3d90ed711be10010430ffcc8cc4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16edc6206210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:04:01</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>7590ed7126e1001051c08ceb5ac1c904</update_guid>
+        <update_guid_history>7590ed7126e1001051c08ceb5ac1c904:1580859596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="KB Most Viewed">af51e9b11be10010430ffcc8cc4bcb05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:07:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2b37f6af360c422295bb2bfc85104199</sys_id>
+        <sys_metadata>3190ed711be10010430ffcc8cc4bcb03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB Most Viewed</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sp_instance_3190ed711be10010430ffcc8cc4bcb03</sys_update_name>
+        <sys_update_version display_value="sp_instance_3190ed711be10010430ffcc8cc4bcb03">3d90ed711be10010430ffcc8cc4bcb04</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:07:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cliente Azul" max_length="40" name="x_419797_azul_cliente_azul" type="collection">
+        <element label="Endereco" mandatory="true" max_length="200" name="u_endereco" type="string"/>
+        <element label="Nome" mandatory="true" max_length="40" name="u_nome" type="string"/>
+        <element label="Telefone" mandatory="true" max_length="40" name="u_telefone" type="string"/>
+    </element>
+</database>

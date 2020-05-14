@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="ALP: Import para Tabela Projetos" max_length="40" name="x_419797_azul_alp__import_para_tabela_projetos" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ativo" label="Ativo" max_length="40" name="u_ativo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Descrição" max_length="40" name="u_descrição" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome do Projeto" label="Nome do Projeto" max_length="40" name="u_nome_do_projeto" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recursos" label="Recursos" max_length="40" name="u_recursos" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>true</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 14:55:27</sys_created_on>
+        <sys_id>946432e61b120010430ffcc8cc4bcbe0</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>x_419797_azul_alp_tabela_projetos</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sys_db_view_table_946432e61b120010430ffcc8cc4bcbe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 18:59:15</sys_updated_on>
+        <table>x_419797_azul_alp_tabela_projetos</table>
+        <variable_prefix>proj</variable_prefix>
+        <view display_value="x_419797_azul_sem_projetos_view">38a2f6661b120010430ffcc8cc4bcbb1</view>
+        <where_clause>usu.sys_id=proj.recursos</where_clause>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sys_db_view_table_946432e61b120010430ffcc8cc4bcbe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>true</left_join><order>100</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-15 14:55:27</sys_created_on><sys_id>946432e61b120010430ffcc8cc4bcbe0</sys_id><sys_mod_count>32</sys_mod_count><sys_name>x_419797_azul_alp_tabela_projetos</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sys_db_view_table_946432e61b120010430ffcc8cc4bcbe0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-15 18:59:15</sys_updated_on><table>x_419797_azul_alp_tabela_projetos</table><variable_prefix>proj</variable_prefix><view display_value="x_419797_azul_sem_projetos_view">38a2f6661b120010430ffcc8cc4bcbb1</view><where_clause>usu.sys_id=proj.recursos</where_clause></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>175421813</payload_hash>
+        <record_name>x_419797_azul_alp_tabela_projetos</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 18:59:15</sys_created_on>
+        <sys_id>85dc27aa1b160010430ffcc8cc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16faa92f7200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 18:59:15</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>01dc27aa9b1600103ad27e7b23e9a464</update_guid>
+        <update_guid_history>01dc27aa9b1600103ad27e7b23e9a464:175421813,e8ccef6ad116001015814970e30b6901:-1159032634,dd58e3a600160010e6c0e643183acfac:377974993,40182f6605160010df06650e8cf2e81b:256319549,aaf72b66601600106bc301d92c24d4e3:622662239,27c7ef263f16001077aab1f5f8816a77:-965327983,48c727664c16001085e0e5de2154080d:1995184866,510723666b160010aa8d263d15caceb8:377974993,d3d6af269f160010779cab900da2dd3a:1360346724,4c86a7264716001089c7bccac941f2ad:25892277,cd3567e23c1600108dd93eaac1781ebe:377974993,1a2567e22a16001099f38cbf1be7f243:36527746,b6f4a3e2c2160010c41ef65331810528:377974993,1ed4aba229160010500aaa1077b400ed:25892277,7874a7a2451600106d0d348bf8d594f0:1360346724,b0222b22d41600109257d384cfe0d4d3:25892277,dce0a7ee0dd200106e2a858849f1d3c7:377974993,e4d0efae28d200101251ffbc2df3b62a:25892277,425063ae27d20010b40e12c80c3716ab:377974993,bc10abaeb9d20010d9897f50225c68a2:-957283136,349f93aec2d20010149b478f1ede1b55:1360346724,c6ae576e70d200102021f0d46331f64e:1370982193,a58e972ef9d20010cdade10d3f4d18ea:1360346724,c67e1b2ed9d20010ac10b338eb523b9c:25892277,395d532ebbd20010af83c97f96e590ef:377974993,994d9fea10d20010f1bfc499281622d0:2104285066,a1bc4b2e7052001014cc0189de864e2e:36272318,c68c832e87520010f6ba7e6fd1e40b03:-821889971,5fd7b6aa0312001096d4eb7f4a0ac51e:-1764504428,26c776aaa01200109f8a53047f0adafa:809784837,86f6366a691200101462f71a3d3a3a5a:-1594478799,11b6b66a3b120010bbc7364487221b3c:137168046,31053ee6f2120010c25eb97ec3108162:217287174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 19:22:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>a1d355e06d50444382aea6e6ef6f10e1</sys_id>
+        <sys_metadata>946432e61b120010430ffcc8cc4bcbe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_419797_azul_alp_tabela_projetos</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent display_value="x_419797_azul_sem_projetos_view">38a2f6661b120010430ffcc8cc4bcbb1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_946432e61b120010430ffcc8cc4bcbe0</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_946432e61b120010430ffcc8cc4bcbe0">85dc27aa1b160010430ffcc8cc4bcb64</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 19:22:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

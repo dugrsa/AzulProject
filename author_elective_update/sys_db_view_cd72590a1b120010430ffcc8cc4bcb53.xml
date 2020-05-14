@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="DELETE">
+        <description>Join na tabela de Recursos Ativos com Recursos Inativos;</description>
+        <label>recurso_inativo_e_recurso_ativo</label>
+        <name>x_419797_azul_recurso_inativo_e_recurso_ativo</name>
+        <plural>recursos_inativos_e_recursos_ativos</plural>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-13 18:30:29</sys_created_on>
+        <sys_id>cd72590a1b120010430ffcc8cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_419797_azul_recurso_inativo_e_recurso_ativo</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sys_db_view_cd72590a1b120010430ffcc8cc4bcb53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 18:30:29</sys_updated_on>
+    </sys_db_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sys_db_view_cd72590a1b120010430ffcc8cc4bcb53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view"><sys_db_view action="INSERT_OR_UPDATE"><description>Join na tabela de Recursos Ativos com Recursos Inativos;</description><label>recurso_inativo_e_recurso_ativo</label><name>x_419797_azul_recurso_inativo_e_recurso_ativo</name><plural>recursos_inativos_e_recursos_ativos</plural><sys_class_name>sys_db_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-13 18:30:29</sys_created_on><sys_id>cd72590a1b120010430ffcc8cc4bcb53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_419797_azul_recurso_inativo_e_recurso_ativo</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sys_db_view_cd72590a1b120010430ffcc8cc4bcb53</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-13 18:30:29</sys_updated_on></sys_db_view></record_update>]]></payload>
+        <payload_hash>905665209</payload_hash>
+        <record_name>x_419797_azul_recurso_inativo_e_recurso_ativo</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-13 18:30:29</sys_created_on>
+        <sys_id>58135dc61b120010430ffcc8cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fa02be83b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 18:30:29</sys_updated_on>
+        <type>Database View</type>
+        <update_guid>90135dc651120010a97aefcbd4ad4171</update_guid>
+        <update_guid_history>90135dc651120010a97aefcbd4ad4171:905665209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-13 18:45:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view">sys_db_view</sys_db_object>
+        <sys_id>229ecfc46dcf429287f1b764f106a989</sys_id>
+        <sys_metadata>cd72590a1b120010430ffcc8cc4bcb53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_419797_azul_recurso_inativo_e_recurso_ativo</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sys_db_view_cd72590a1b120010430ffcc8cc4bcb53</sys_update_name>
+        <sys_update_version display_value="sys_db_view_cd72590a1b120010430ffcc8cc4bcb53">58135dc61b120010430ffcc8cc4bcb71</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 18:45:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

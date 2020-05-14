@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $http) {
+	/* widget controller */
+	var c = this;
+	var getData = function(){
+		$http({
+			method: 'GET',
+			url: 'https://dev93343.service-now.com/api/now/table/x_419797_azul_cliente_azul'
+		}).then(function successCallback(response) {
+			$scope.cadastros = response.data.result;
+			
+		});	
+	};
+	
+	getData();
+
+	$scope.onSubmitRecord = function(usuario){
+		$http.post("https://dev93343.service-now.com/api/now/table/x_419797_azul_cliente_azul", usuario).success(function(data){
+				getData();
+		});	
+	};
+
+	$scope.onEditRecord = function(usuario){
+		var objetoforPut = {
+			sys_id: usuario.sys_id,
+			u_nome: usuario.u_nome,
+			u_telefone: usuario.u_telefone,
+			u_endereco: usuario.u_endereco
+		};
+		
+		$http.put("/api/now/table/x_419797_azul_cliente_azul/" + objetoforPut.sys_id, objetoforPut).success(function(data){
+				getData();
+		});
+	}
+	
+	$scope.onLoadRowInEdit = function(cadastro){
+		$scope.input = angular.copy(cadastro);
+	}
+
+	$scope.usuario = {
+		u_nome: "",
+		u_telefone: "",
+		u_endereco: ""
+	};
+
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>cadastrarusuario</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>cadastrarUsuario</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	
+	
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 15:07:27</sys_created_on>
+        <sys_id>31eab6781b220010430ffcc8cc4bcbf2</sys_id>
+        <sys_mod_count>322</sys_mod_count>
+        <sys_name>cadastrarUsuario</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_widget_31eab6781b220010430ffcc8cc4bcbf2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-24 20:37:31</sys_updated_on>
+        <template><![CDATA[<!-- MODAL ADICIONAR -->
+<div id="modalAdicionar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Conteúdo do modal Adicionar-->
+    <div class="modal-content">
+
+      <!-- Cabeçalho do modal -->
+      <div class="modal-header">
+        <h4 class="modal-title">Adicionar Cadastro</h4>
+        <div ng-show="usuarioForm.nome.$error.required && usuarioForm.nome.$dirty" class="alert alert-danger">
+            Por favor, preencha o nome completo!
+          </div>
+
+          <div ng-show="usuarioForm.telefone.$error.required && usuarioForm.nome.$dirty" class="alert alert-danger">
+            Por favor, preencha o campo telefone!
+          </div>
+
+          <div ng-show="usuarioForm.endereco.$error.required && usuarioForm.nome.$dirty" class="alert alert-danger">
+            Por favor, preencha o campo endereço!
+          </div>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Corpo do modal -->
+      <div class="modal-body">
+        <form name="usuarioForm">
+          <p>Nome Completo:</p>
+          <input class="form-control" ng-model="usuario.u_nome" ng-required="true" name="nome"/>
+          <p>Telefone:</p>
+          <input class="form-control" ng-model="usuario.u_telefone" ng-required="true" name="telefone"/>
+          <p>Endereço::</p>
+          <input class="form-control" ng-model="usuario.u_endereco" ng-required="true" name="endereco"/>              
+        </form>
+      </div>
+      <!-- Rodapé do modal-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary" ng-click="onSubmitRecord(usuario)" ng-disabled="usuarioForm.$invalid" data-dismiss="modal">Salvar Alterações</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL EDITAR -->
+<div id="modalEditar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Conteúdo do modal EDITAR-->
+    <div class="modal-content">
+
+      <!-- Cabeçalho do modal -->
+      <div class="modal-header">
+        <h4 class="modal-title">Editar Cadastro</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Corpo do modal -->
+      <div class="modal-body">
+        <form name="projetoForm">
+          <p>Nome:</p>
+          <input class="form-control" ng-model="input.u_nome"/>
+          <p>Telefone:</p>
+          <input class="form-control" ng-model="input.u_telefone"/>
+          <p>Endereco:</p>
+          <input class="form-control" ng-model="input.u_endereco"/>
+        </form>
+      </div>
+      <!-- Rodapé do modal-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary" ng-click="onEditRecord(input)" data-dismiss="modal">Salvar Alterações</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalAdicionar">Adicionar</button>
+
+
+
+<!-->Tabela</-->
+<table class="table table-overflow">
+  <thead>
+    <tr id="titulomenu">
+      <th>#</th>
+      <th>Nome Completo</th>
+      <th>Telefone</th>
+      <th>Endereco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-class="" ng-repeat="cadastro in cadastros">
+      <th></th>
+      <td>{{cadastro.u_nome}}</td>
+      <td>{{cadastro.u_telefone}}</td>
+      <td>{{cadastro.u_endereco}}</td>
+      <td><button class="btn btn-primary btn-block" data-toggle="modal" data-target="#modalEditar" ng-click="onLoadRowInEdit(cadastro)">Editar</button></td>
+    </tr>
+  </tbody>
+</table>]]></template>
+    </sp_widget>
+</record_update>

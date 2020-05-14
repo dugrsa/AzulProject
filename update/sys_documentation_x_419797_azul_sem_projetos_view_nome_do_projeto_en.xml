@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nome_do_projeto" label="Nome do projeto" language="en" table="x_419797_azul_sem_projetos_view">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nome_do_projeto</element>
+            <help/>
+            <hint/>
+            <label>Nome do projeto</label>
+            <language>en</language>
+            <name>x_419797_azul_sem_projetos_view</name>
+            <plural>Nome do projetos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-15 17:37:04</sys_created_on>
+            <sys_id>890a1f2a1bd20010430ffcc8cc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nome do projeto</sys_name>
+            <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+            <sys_update_name>sys_documentation_x_419797_azul_sem_projetos_view_nome_do_projeto_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-15 17:37:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

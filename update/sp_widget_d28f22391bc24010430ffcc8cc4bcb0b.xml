@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $http) {
+	/* widget controller */
+	var c = this;
+	$scope.labels = [];
+	$scope.data = [];
+	$scope.recursos = [];
+	$scope.recursosIndividual = [];
+	
+	$http({
+		method: 'GET',
+		url: 'https://dev93343.service-now.com/api/now/table/x_419797_azul_alp_tabela_projetos?sysparm_query=ativo%3Dtrue&sysparm_display_value=true'
+	}).then(function successCallback(response) {
+	
+	$scope.recursos = response.data.result; // recebe os Objetos da API;
+
+	$scope.recursos.filter(function(item) {
+			recurso = item.recursos.split(', ');
+			recurso.filter(function(recurso2, indice){
+				$scope.recursosIndividual.push(recurso2);
+			})
+	}) //Varios recursos que participam do mesmo projeto, são separados;
+		//E acrescentado todos os recursos individualmente no array, assim posso 
+		//contabilizar quantos projetos aquele recurso tem.
+		
+		$scope.labels = $scope.recursosIndividual.filter(function(recurso, indice) {
+			return $scope.recursosIndividual.indexOf(recurso) === indice;
+		}); //Separa os recursos individuais para mostrar no gráfico(Sem duplicidade)
+
+		$scope.labels.filter(function(recurso, indice){
+			var total = 0;
+			$scope.recursosIndividual.filter(function(recurso2){
+				if(recurso === recurso2){
+					total++;
+					$scope.data[indice] = total;
+				}
+			})
+		}); //calcula na ordem de cada label do gráfico, quantos projetos possui cada um.
+		$scope.data.push(0); //acrescenta 0 no final do gráfico charts para iniciar a contagem a partir do 0;
+		
+		/*for(var proj in $scope.dados){
+			$scope.recursos[proj] = $scope.dados[proj].recursos;
+			var users = $scope.dados[proj].recursos.split(', ');
+			for (var i = 0; i < users.length; i++){
+				if(!$scope.labels.includes(users[i])){
+					$scope.labels.push(users[i]);
+				}
+			}
+		}
+		$scope.recursos.map(function(valor){
+			valor = valor.split(', ');
+			valor.map(function(valor2){
+				$scope.recursosCorrecao.push(valor2);
+
+			})
+		})
+		$scope.labels.forEach(verificaLabels);
+		function verificaLabels(itemLabels, indice) {
+			var total = 0;
+			$scope.recursosCorrecao.forEach(verificaRecursos);
+			function verificaRecursos(itemRecursos) { 
+				if(itemLabels.includes(itemRecursos)) {
+					total++;
+					$scope.data[indice] = total;
+				}
+			}
+		}
+		$scope.data.push(0); //Inicida
+		console.log($scope.recursosCorrecao)
+		console.log($scope.recursos)
+		console.log($scope.labels)
+		console.log($scope.data)
+*/
+	}, function errorCallback(response) {
+		// called asynchronously if an error occurs
+		// or server returns response with an error status.
+	}); 
+
+}
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.canvas{
+  color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>dashboard_angular</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Azul Dashboard Com Angular Charts</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-31 20:20:20</sys_created_on>
+        <sys_id>d28f22391bc24010430ffcc8cc4bcb0b</sys_id>
+        <sys_mod_count>503</sys_mod_count>
+        <sys_name>Azul Dashboard Com Angular Charts</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_widget_d28f22391bc24010430ffcc8cc4bcb0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 18:22:43</sys_updated_on>
+        <template><![CDATA[<div>
+  <canvas id="bar" class="chart chart-bar"
+  chart-data="data" chart-labels="labels" chart-series="series"> 
+  </canvas>
+</div>]]></template>
+    </sp_widget>
+</record_update>

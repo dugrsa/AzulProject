@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="DELETE">
+        <description>Join entre a tabela de usuario e projeto;</description>
+        <label>azul_usuario_por_projeto</label>
+        <name>x_419797_azul_x_419797_usuario_sem_projeto</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-13 18:53:22</sys_created_on>
+        <sys_id>32a7914e1b120010430ffcc8cc4bcb63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_419797_azul_x_419797_usuario_sem_projeto</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sys_db_view_32a7914e1b120010430ffcc8cc4bcb63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 19:23:44</sys_updated_on>
+    </sys_db_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sys_db_view_32a7914e1b120010430ffcc8cc4bcb63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view"><sys_db_view action="INSERT_OR_UPDATE"><description>Join entre a tabela de usuario e projeto;</description><label>azul_usuario_por_projeto</label><name>x_419797_azul_x_419797_usuario_sem_projeto</name><plural/><sys_class_name>sys_db_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-13 18:53:22</sys_created_on><sys_id>32a7914e1b120010430ffcc8cc4bcb63</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_419797_azul_x_419797_usuario_sem_projeto</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sys_db_view_32a7914e1b120010430ffcc8cc4bcb63</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-13 19:23:44</sys_updated_on></sys_db_view></record_update>]]></payload>
+        <payload_hash>1288390710</payload_hash>
+        <record_name>x_419797_azul_x_419797_usuario_sem_projeto</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-13 19:23:44</sys_created_on>
+        <sys_id>884f55061b520010430ffcc8cc4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fa05ca72d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-13 19:23:44</sys_updated_on>
+        <type>Database View</type>
+        <update_guid>044f5506fe520010811722f997f44a48</update_guid>
+        <update_guid_history>044f5506fe520010811722f997f44a48:1288390710,df48518eb212001072449b48c45a9d05:1978055186</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 14:34:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view">sys_db_view</sys_db_object>
+        <sys_id>5e275d5d13724825b169dd8cde030759</sys_id>
+        <sys_metadata>32a7914e1b120010430ffcc8cc4bcb63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_419797_azul_x_419797_usuario_sem_projeto</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sys_db_view_32a7914e1b120010430ffcc8cc4bcb63</sys_update_name>
+        <sys_update_version display_value="sys_db_view_32a7914e1b120010430ffcc8cc4bcb63">884f55061b520010430ffcc8cc4bcb48</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 14:34:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

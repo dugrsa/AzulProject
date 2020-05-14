@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Cadastro De Usuário - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="cadastrousuarioazul">13f9f2381b220010430ffcc8cc4bcb83</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 16:35:11</sys_created_on>
+        <sys_id>7efe4bf81b620010430ffcc8cc4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cadastro De Usuário - Container 2</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_container_7efe4bf81b620010430ffcc8cc4bcb02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 16:35:11</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sp_container_7efe4bf81b620010430ffcc8cc4bcb02</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Cadastro De Usuário - Container 2</name><order>2</order><sp_page display_value="cadastrousuarioazul">13f9f2381b220010430ffcc8cc4bcb83</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-22 16:35:11</sys_created_on><sys_id>7efe4bf81b620010430ffcc8cc4bcb02</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cadastro De Usuário - Container 2</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sp_container_7efe4bf81b620010430ffcc8cc4bcb02</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-22 16:35:11</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1277968170</payload_hash>
+        <record_name>Cadastro De Usuário - Container 2</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 16:35:11</sys_created_on>
+        <sys_id>f6fe4bf81b620010430ffcc8cc4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fce1b93d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 16:35:11</sys_updated_on>
+        <type>Container</type>
+        <update_guid>32fe4bf87762001097d2f18576967104</update_guid>
+        <update_guid_history>32fe4bf87762001097d2f18576967104:-1277968170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cadastro De Usuário - Container 2">091f0fb81b620010430ffcc8cc4bcb3f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 16:35:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>156e46e0b32e48eb8d63a23e20e73179</sys_id>
+        <sys_metadata>7efe4bf81b620010430ffcc8cc4bcb02</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cadastro De Usuário - Container 2</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sp_container_7efe4bf81b620010430ffcc8cc4bcb02</sys_update_name>
+        <sys_update_version display_value="sp_container_7efe4bf81b620010430ffcc8cc4bcb02">f6fe4bf81b620010430ffcc8cc4bcb04</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 16:35:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

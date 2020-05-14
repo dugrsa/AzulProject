@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_419797_azul.recebeDadosTabelaCadastroAzul</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>recebeDadosTabelaCadastroAzul</name>
+        <script><![CDATA[var recebeDadosTabelaCadastroAzul = Class.create();
+recebeDadosTabelaCadastroAzul.prototype = {
+    initialize: function() {
+    },
+
+    type: 'recebeDadosTabelaCadastroAzul'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 15:26:50</sys_created_on>
+        <sys_id>d3ee7e7c1b220010430ffcc8cc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>recebeDadosTabelaCadastroAzul</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sys_script_include_d3ee7e7c1b220010430ffcc8cc4bcbd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 15:26:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

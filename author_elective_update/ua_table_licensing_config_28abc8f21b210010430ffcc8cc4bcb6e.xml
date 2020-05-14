@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_419797_azul_alp__import_para_tabela_projetos_1</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 14:26:45</sys_created_on>
+        <sys_id>28abc8f21b210010430ffcc8cc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_419797_azul_alp__import_para_tabela_projetos_1</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>ua_table_licensing_config_28abc8f21b210010430ffcc8cc4bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-09 14:26:45</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>ua_table_licensing_config_28abc8f21b210010430ffcc8cc4bcb6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_419797_azul_alp__import_para_tabela_projetos_1</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-09 14:26:45</sys_created_on><sys_id>28abc8f21b210010430ffcc8cc4bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_419797_azul_alp__import_para_tabela_projetos_1</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>ua_table_licensing_config_28abc8f21b210010430ffcc8cc4bcb6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-09 14:26:45</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1885572586</payload_hash>
+        <record_name>x_419797_azul_alp__import_para_tabela_projetos_1</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 14:26:45</sys_created_on>
+        <sys_id>28abc8f21b210010430ffcc8cc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16eeb0e2f210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-09 14:26:45</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>60abc8f2d921001012bfe9bfa8f1ed70</update_guid>
+        <update_guid_history>60abc8f2d921001012bfe9bfa8f1ed70:1885572586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 14:35:13</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>1d7700e8ab364adc8aa92a16c45cf724</sys_id>
+        <sys_metadata>28abc8f21b210010430ffcc8cc4bcb6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_419797_azul_alp__import_para_tabela_projetos_1</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_28abc8f21b210010430ffcc8cc4bcb6e</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_28abc8f21b210010430ffcc8cc4bcb6e">28abc8f21b210010430ffcc8cc4bcb70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-09 14:35:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

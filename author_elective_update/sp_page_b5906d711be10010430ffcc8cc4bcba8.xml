@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>kb</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>azul_of_kb_view</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:04:01</sys_created_on>
+        <sys_id>b5906d711be10010430ffcc8cc4bcba8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>azul_of_kb_view</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_page_b5906d711be10010430ffcc8cc4bcba8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:04:31</sys_updated_on>
+        <title>Azul of Knowledge Base</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=b5906d711be10010430ffcc8cc4bcba8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sp_page_b5906d711be10010430ffcc8cc4bcba8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>kb</category><css/><draft>false</draft><dynamic_title_structure/><id>azul_of_kb_view</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-06 18:04:01</sys_created_on><sys_id>b5906d711be10010430ffcc8cc4bcba8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>azul_of_kb_view</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sp_page_b5906d711be10010430ffcc8cc4bcba8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-06 18:04:31</sys_updated_on><title>Azul of Knowledge Base</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=b5906d711be10010430ffcc8cc4bcba8"/></record_update>]]></payload>
+        <payload_hash>495009056</payload_hash>
+        <record_name>azul_of_kb_view</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:04:31</sys_created_on>
+        <sys_id>01b021b11be10010430ffcc8cc4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16edc627add0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:04:31</sys_updated_on>
+        <type>Page</type>
+        <update_guid>89b021b1f7e100105a7908704eb566dd</update_guid>
+        <update_guid_history>89b021b1f7e100105a7908704eb566dd:495009056,31906d718ce100107536955b977303aa:1762021451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="azul_of_kb_view">2b51e9b11be10010430ffcc8cc4bcb1e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:07:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>3c12fcbed36d42fba0985107626c8a71</sys_id>
+        <sys_metadata>b5906d711be10010430ffcc8cc4bcba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>azul_of_kb_view</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sp_page_b5906d711be10010430ffcc8cc4bcba8</sys_update_name>
+        <sys_update_version display_value="sp_page_b5906d711be10010430ffcc8cc4bcba8">01b021b11be10010430ffcc8cc4bcbde</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:07:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

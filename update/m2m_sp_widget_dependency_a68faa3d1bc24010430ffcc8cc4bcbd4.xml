@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="angular-charts">2d4b0a521b750010430ffcc8cc4bcb69</sp_dependency>
+        <sp_widget display_value="Azul Dashboard Com Angular Charts">d28f22391bc24010430ffcc8cc4bcb0b</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-31 20:20:20</sys_created_on>
+        <sys_id>a68faa3d1bc24010430ffcc8cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-charts.Copy of azul_dashboard_gerente</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_a68faa3d1bc24010430ffcc8cc4bcbd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-31 20:20:20</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

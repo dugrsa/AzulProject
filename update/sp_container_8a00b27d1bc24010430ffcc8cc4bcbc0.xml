@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Azul Dashboard Angular Charts - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="dashboard_angular_charts">4a00f6391bc24010430ffcc8cc4bcb94</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-31 20:22:30</sys_created_on>
+        <sys_id>8a00b27d1bc24010430ffcc8cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Azul Dashboard Angular Charts - Container 1</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_container_8a00b27d1bc24010430ffcc8cc4bcbc0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-31 20:23:05</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

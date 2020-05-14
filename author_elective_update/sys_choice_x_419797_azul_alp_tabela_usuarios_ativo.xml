@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="ativo" table="x_419797_azul_alp_tabela_usuarios" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ativo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>false</label>
+            <language>en</language>
+            <name>x_419797_azul_alp_tabela_usuarios</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-06 16:56:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b211d711ba10010430ffcc8cc4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-06 16:56:50</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ativo</element>
+            <name>x_419797_azul_alp_tabela_usuarios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-06 16:56:40</sys_created_on>
+            <sys_id>8321d9711ba10010430ffcc8cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ativo</sys_name>
+            <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+            <sys_update_name>sys_choice_x_419797_azul_alp_tabela_usuarios_ativo</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-06 16:56:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sys_choice_x_419797_azul_alp_tabela_usuarios_ativo</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="ativo" table="x_419797_azul_alp_tabela_usuarios" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>ativo</element><hint/><inactive>false</inactive><label>false</label><language>en</language><name>x_419797_azul_alp_tabela_usuarios</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-06 16:56:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8b211d711ba10010430ffcc8cc4bcb13</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-06 16:56:50</sys_updated_on><value/></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>ativo</element><name>x_419797_azul_alp_tabela_usuarios</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-06 16:56:40</sys_created_on><sys_id>8321d9711ba10010430ffcc8cc4bcbe8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ativo</sys_name><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sys_choice_x_419797_azul_alp_tabela_usuarios_ativo</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-06 16:56:40</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>938204065</payload_hash>
+        <record_name>ALP: Tabela Usuarios.Ativo</record_name>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 17:00:05</sys_created_on>
+        <sys_id>05f151b11ba10010430ffcc8cc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16edc277a840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 17:00:05</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>8df151b193a100109c62d305c621ac0c</update_guid>
+        <update_guid_history>8df151b193a100109c62d305c621ac0c:938204065,a1315d3194a100104c3efee2f551e17b:806562543,4b21d9714ca10010f0db6be21a550be9:-1681064392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 17:00:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8321d9711ba10010430ffcc8cc4bcbe8</sys_id>
+        <sys_metadata>8321d9711ba10010430ffcc8cc4bcbe8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ativo</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sys_choice_x_419797_azul_alp_tabela_usuarios_ativo</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_419797_azul_alp_tabela_usuarios_ativo">05f151b11ba10010430ffcc8cc4bcb0d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 17:00:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

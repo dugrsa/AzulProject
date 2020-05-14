@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Azul Projetos" max_length="40" name="x_419797_azul_alp_tabela_projetos" sizeclass="5665" type="collection">
+        <element label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element label="Descrição" max_length="200" name="descricao" type="string"/>
+        <element label="Nome Do Projeto" max_length="100" name="nome_do_projeto" type="string"/>
+        <element display="true" label="Recursos" max_length="300" name="recursos" reference="x_419797_azul_alp_tabela_usuarios" type="glide_list"/>
+    </element>
+</database>

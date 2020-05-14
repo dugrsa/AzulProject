@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 19:23:39</sys_created_on>
+        <sys_id>0f5277ee1b160010430ffcc8cc4bcb9a</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>x_419797_azul_alp_tabela_projetos</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sys_db_view_table_0f5277ee1b160010430ffcc8cc4bcb9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 21:28:06</sys_updated_on>
+        <table>x_419797_azul_alp_tabela_projetos</table>
+        <variable_prefix>proj</variable_prefix>
+        <view display_value="x_419797_azul_sem_projetos_view">38a2f6661b120010430ffcc8cc4bcbb1</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

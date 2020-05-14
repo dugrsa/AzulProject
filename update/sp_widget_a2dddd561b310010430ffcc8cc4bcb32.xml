@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $http) {
+	/* widget controller */
+	var c = this;
+
+	function carregarDados(){
+		$http({
+			method: 'GET',
+			url: 'https://dev93343.service-now.com/api/now/table/x_419797_azul_alp_tabela_projetos?sysparm_query=ativo%3Dtrue&sysparm_display_value=true'
+		}).then(function successCallback(response) {
+				$scope.labels = response.data.result;
+				console.log($scope.labels);
+				
+		}, function errorCallback(response) {
+			// called asynchronously if an error occurs
+			// or server returns response with an error status.
+		});
+	}
+
+
+	$scope.series = ['Series A', 'Series B'];
+
+	$scope.data = [
+		[65, 59, 80, 81, 56, 55, 40],
+		[28, 48, 40, 19, 86, 27, 90]
+	];
+
+}
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.canvas{
+color: red;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>azul_dashboard_gerente</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>azul_dashboard_gerente</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 17:24:42</sys_created_on>
+        <sys_id>a2dddd561b310010430ffcc8cc4bcb32</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>azul_dashboard_gerente</sys_name>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_widget_a2dddd561b310010430ffcc8cc4bcb32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 19:13:25</sys_updated_on>
+        <template><![CDATA[<div>
+  <canvas id="bar" class="chart chart-bar"
+  chart-data="data" chart-labels="labels" chart-series="series"> 
+  </canvas>
+</div>]]></template>
+    </sp_widget>
+</record_update>

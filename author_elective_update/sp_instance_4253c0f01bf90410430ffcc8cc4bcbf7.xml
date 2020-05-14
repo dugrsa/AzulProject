@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0a53c0f01bf90410430ffcc8cc4bcbf4</sp_column>
+        <sp_widget display_value="Azul Widget Projetos Lista">421a59f91ba10010430ffcc8cc4bcbb7</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-15 18:58:23</sys_created_on>
+        <sys_id>4253c0f01bf90410430ffcc8cc4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_update_name>sp_instance_4253c0f01bf90410430ffcc8cc4bcbf7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-15 18:58:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4253c0f01bf90410430ffcc8cc4bcbf7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</application>
+        <file_path/>
+        <instance_id>d41c5bb8db3f77048aea21c4059619b7</instance_id>
+        <instance_name>dev93343</instance_name>
+        <name>sp_instance_4253c0f01bf90410430ffcc8cc4bcbf7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">0a53c0f01bf90410430ffcc8cc4bcbf4</sp_column><sp_widget display_value="Azul Widget Projetos Lista">421a59f91ba10010430ffcc8cc4bcbb7</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-15 18:58:23</sys_created_on><sys_id>4253c0f01bf90410430ffcc8cc4bcbf7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package><sys_policy/><sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope><sys_update_name>sp_instance_4253c0f01bf90410430ffcc8cc4bcbf7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-15 18:58:23</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4253c0f01bf90410430ffcc8cc4bcbf7"/></record_update>]]></payload>
+        <payload_hash>-479469163</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>31f4b8751b210010430ffcc8cc4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-15 18:58:23</sys_created_on>
+        <sys_id>4a53c0f01bf90410430ffcc8cc4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f0aed066f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-15 18:58:23</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8253c0f096f904108fce0652ff7c94f9</update_guid>
+        <update_guid_history>8253c0f096f904108fce0652ff7c94f9:-479469163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9fa348f01bf90410430ffcc8cc4bcb0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-15 18:59:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1c6ddc29d1d54e8f833ad9d5710fd9b1</sys_id>
+        <sys_metadata>4253c0f01bf90410430ffcc8cc4bcbf7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Azul" source="x_419797_azul">c93374b51b210010430ffcc8cc4bcbef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azul">c93374b51b210010430ffcc8cc4bcbef</sys_scope>
+        <sys_scope_delete display_value="">a10ecfdafbd448dbaca38ad172af74f1</sys_scope_delete>
+        <sys_update_name>sp_instance_4253c0f01bf90410430ffcc8cc4bcbf7</sys_update_name>
+        <sys_update_version display_value="sp_instance_4253c0f01bf90410430ffcc8cc4bcbf7">4a53c0f01bf90410430ffcc8cc4bcbf9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-15 18:59:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
